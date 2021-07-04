@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
               String moreThanTwo = watch(moreThanTwoProvider);
 
               return Column(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(myData),
                   Text(another),
